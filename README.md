@@ -1,3 +1,3 @@
-# Address lookup
+# Autocomplete in GOV.UK Prototype Kit
 
-This is a work in progress project documenting different designs for an address lookup component. It is not intended for re-use at this time.
+This is a version of the kit with the autocomplete installed. I use it as a cheatsheet to get up and running. Shouldn't be distributed as will go out of date quickly.

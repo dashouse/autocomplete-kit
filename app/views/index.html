@@ -1,0 +1,37 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Autocomplete
+{% endblock %}
+
+{% block beforeContent %}
+
+  {{ govukBackLink({
+    text: "Back",
+    href: "/"
+  }) }}
+
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+    <h1 class="govuk-heading-xl">This is an autocomplete</h1>
+
+      <label class="govuk-label" for="national-insurance-number">
+        Enter a number
+      </label>
+      <span id="address-hint" class="govuk-hint">
+        Start typing a number
+      </span>
+
+      <div id="my-autocomplete-container">
+      </div>
+
+  </div>
+</div>
+
+{% endblock %}
